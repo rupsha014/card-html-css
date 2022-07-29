@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(158, 147, 148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 13px;
+    
+}
+.solid-page{
+    max-width: 300px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+.area{
+    padding-left: 8px;
+   
+}
+.area h2{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.top{
+    display: flex;
+    padding: 10px;
+    column-gap: 3px;
+    align-items: center;
+}
+.top h3.A{
+    
+    color: white;
+    background-color: indigo;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.top p{
+    font-weight: 200;
+}
+.pic img{
+    width: 100%;
+}
+.middle{
+    padding: 12px;
+}
+.content{
+    justify-content: start;
+}
+.content h2{
+    font-weight: 500;
+}
+.content p{
+    font-weight: 200;
+}
+.middle .content  p.B{
+    padding-top: 15px;
+    max-width: 360px;
+}
+.middle.content p.B1{
+    padding-bottom: 40px;
+    max-width: 360px;
+}
+.bottom{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    column-gap: 8px;
+    margin-top:20px ;
+    
+}
+.bottom button.disabled{
+    color: indigo;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid black;
+    padding: 7px 14px;
+}
+.bottom button.enabled{
+    color: white;
+    font-weight: bold;
+    background-color:indigo;
+    border-radius: 20px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+
+
+
